@@ -12,13 +12,13 @@ const userSchema = new Schema(
     name: {
       type: String
     },
-    location: {
-      type: String
-    },
-    beats: [{
-      type: Schema.Types.ObjectId,
-      ref: "Beat"
-    }]
+    // location: {
+    //   type: String
+    // },
+    // beats: [{
+    //   type: Schema.Types.ObjectId,
+    //   ref: "Beat"
+    // }]
   },   
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`
